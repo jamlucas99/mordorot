@@ -1,14 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    { "source": "/site", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/site/" },
-    { "source": "/site/(.*)", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/site/$1" },
-    { "source": "/index.php", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/index.php" },
-    { "source": "/index.php/(.*)", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/index.php/$1" },
-    { "source": "/templates/(.*)", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/templates/$1" },
-    { "source": "/tools/(.*)", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/tools/$1" },
-    { "source": "/images/(.*)", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/images/$1" },
-    { "source": "/system/(.*)", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/system/$1" },
-    { "source": "/plugins/(.*)", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/plugins/$1" }
+    { "source": "/site", "destination": "http://57.156.56.15:8080/site/" },
+    { "source": "/site/(.*)", "destination": "http://57.156.56.15:8080/site/$1" },
+    { "source": "/index.php", "destination": "http://57.156.56.15:8080/index.php" },
+    { "source": "/index.php/(.*)", "destination": "http://57.156.56.15:8080/index.php/$1" },
+    { "source": "/templates/(.*)", "destination": "http://57.156.56.15:8080/templates/$1" },
+    { "source": "/tools/(.*)", "destination": "http://57.156.56.15:8080/tools/$1" },
+    { "source": "/images/(.*)", "destination": "http://57.156.56.15:8080/images/$1" },
+    { "source": "/system/(.*)", "destination": "http://57.156.56.15:8080/system/$1" },
+    { "source": "/plugins/(.*)", "destination": "http://57.156.56.15:8080/plugins/$1" }
   ]
 }
