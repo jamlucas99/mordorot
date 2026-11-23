@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/site", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/site/" },
+    { "source": "/site/(.*)", "destination": "https://thread-cars-accidents-rca.trycloudflare.com/site/$1" }
+  ]
+}
